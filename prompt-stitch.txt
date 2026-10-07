@@ -1,0 +1,30 @@
+# PROMPT CATATAN PERANCANGAN DESAIN KONSEP AWAL GOOGLE STITCH
+# PROYEK: SISTEM E-COMMERCE & EDUKASI BUDIDAYA LOBSTER AIR TAWAR NAKHERA FARM
+# MAHASISWA: MUHAMMAD RAFLY PUTRA MULYANA (NIM: 43240407)
+
+[PROMPT GENERATION - GOOGLE STITCH DESIGN ASSISTANT]
+
+Design a high-end, modern B2B aquaculture e-commerce and vertical farming educational web interface for "Nakhera Farm", a premier freshwater lobster (Cherax quadricarinatus) breeding and technology enterprise in Indonesia.
+
+Visual Style & Aesthetic Specifications:
+1. Color Palette:
+   - Primary Background: Deep Ocean Dark (#0f2027, #132735)
+   - Secondary Cards & Containers: Glassmorphism translucent dark navy (#1a3644 with backdrop blur, border 1px solid rgba(255,255,255,0.08))
+   - Primary Accent: Lobster Coral Orange (#ff5e36, #ff7b57) for high-conversion CTAs and highlights.
+   - Secondary Accent: Aqua Emerald Green (#00b4d8, #52b788) for status badges, environmental parameters (pH, Temp, DO), and vertical farming tech stats.
+   - Typography: Clean Sans-Serif (Google Fonts: Outfit / Inter) with bright white headings (#ffffff) and cool slate secondary text (#a0aec0).
+
+2. Core Sections & Component Hierarchy:
+   - Header Navigation: Transparent glass navbar with Nakhera Farm logo (glowing orange lobster icon), links: Beranda, Profil, Edukasi RAS, Katalog B2B, Status PO, and dynamic action button "Ajukan PO".
+   - Hero Banner: Immersive dark aquatic background gradient, bold headline "Solusi Terdepan Budidaya & Pasokan Lobster Air Tawar Quality Grade A", subtext, dual CTA buttons, and high-tech stat counter cards (Production capacity, Survival Rate 95%, RAS Technology).
+   - Profile Section: Modern grid showcase of Nakhera Farm facilities, vertical farming stack design, and sustainability values.
+   - Education Module (Vertical Farming): Grid of interactive learning modules covering Vertical Apartment Tanks, RAS Water Recirculation, Water Quality Monitoring, and Nutrition Control.
+   - B2B Product Catalog: Card grid displaying lobster variants (Konsumsi Super, Indukan Red Claw Grade A, Burayak Benih, and Vertical Farming Starter Kits) with pricing, stock status, specs tags, and "Tambah ke PO" action.
+   - Interactive Purchase Order Form: Clean form layout with dark input fields, automatic total price calculations, and instant submission logic.
+   - Real-time Transaction Tracking Table: High-contrast data table listing PO IDs, buyer names, order status badges (Disetujui, Diproses, Dikirim, Selesai), with filter tabs.
+   - Footer: Deep navy footer with student credit: Muhammad Rafly Putra Mulyana (NIM: 43240407), quick links, and contact channels.
+
+3. Responsiveness & UI Micro-interactions:
+   - Smooth hover elevation effects on cards (+5px offset with orange glow).
+   - Mobile-first responsive layout with side drawer / hamburger menu integration.
+   - Clean data visualization layout for water parameters and B2B order flow.

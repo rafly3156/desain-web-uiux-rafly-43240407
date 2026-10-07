@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Nakhera Farm — Revolusi Budidaya Lobster Air Tawar</title>
+    <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a class="nav-logo" href="#">
+                NAKHERA FARM<span></span>
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a class="nav-link" href="#profil">Profil</a></li>
+                    <li><a class="nav-link" href="#edukasi">Edukasi</a></li>
+                    <li><a class="nav-link" href="#katalog">Katalog</a></li>
+                    <li><a class="nav-link" href="#checkout">Checkout</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a class="cart-indicator-btn" href="#checkout" id="cartBadge">
+                    <span>Keranjang</span>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+                <button aria-label="Toggle Navigation" class="hamburger-btn" id="hamburgerBtn">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu Drawer -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a class="nav-link mobile-link" href="#profil">Profil</a>
+            <a class="nav-link mobile-link" href="#edukasi">Edukasi</a>
+            <a class="nav-link mobile-link" href="#katalog">Katalog</a>
+            <a class="nav-link mobile-link" href="#checkout">Checkout</a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-content">
+            <div class="pill-badge">
+                <span class="dot"></span>
+                <span>Vertical Indoor Aquafarming Cirebon</span>
+            </div>
+            <h1 class="hero-title">Revolusi Budidaya Lobster Air Tawar.</h1>
+            <p class="hero-desc">
+                Menghadirkan Red Claw Lobster (<em>Cherax quadricarinatus</em>) berkualitas premium melalui rekayasa
+                kualitas air dan inovasi vertical indoor farming.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-secondary" href="#profil">Jelajahi Farm Kami</a>
+                <a class="btn btn-primary" href="#katalog">Pesan Sekarang</a>
+            </div>
+            <div
+                style="position: relative; margin-top: 1rem; margin-bottom: 3.5rem; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-subtle); box-shadow: 0 20px 40px -15px rgba(0,0,0,0.07); background: #FFFFFF;">
+                <img alt="Fasilitas Indoor Vertical Aquaculture Nakhera Farm Cirebon"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJKAzufeR7Z47bACAoCjBog2gAPiXAbNeD7Y5DwQ6USQ9PS1h0F_MhMoJTIYnvYzFj4b0Hsaq_tdxRdqgSnOekPCKZ1ES1GYVj2KWXXQeJ289o21V3tf-1Xd0VCueVrxTmPyvF5hNn19WAU4-ZI6XQ-xHCS90-GwcXoGZCwDo1ljwpJYtbRDgZcuPiA4aNnhOOLFHVU8b_So9B9GGD-p3LHz6I5b8-yJdV5T3B"
+                    style="width: 100%; height: auto; max-height: 480px; object-fit: cover; display: block;" />
+                <div
+                    style="position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(255, 255, 255, 0.94); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(229, 231, 235, 0.8); border-radius: var(--radius-md); padding: 0.9rem 1.4rem; display: flex; align-items: center; gap: 1rem; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06); text-align: left;">
+                    <div
+                        style="width: 10px; height: 10px; border-radius: 50%; background: #0EA5E9; box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2); flex-shrink: 0;">
+                    </div>
+                    <div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #111827; letter-spacing: -0.01em;">
+                            Sistem Recirculating Aquaculture (RAS) Terintegrasi</div>
+                        <div style="font-size: 0.75rem; color: #6B7280;">Instalasi Vertikal Modern &amp; Bio-Filtrasi
+                            Presisi — Cirebon, Jawa Barat</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-metrics">
+                <div class="metric-item">
+                    <div class="metric-value">99.2%</div>
+                    <div class="metric-label">Tingkat Kelangsungan Hidup (SR)</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">4.5x</div>
+                    <div class="metric-label">Efisiensi Ruang Rak Bertingkat</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">24/7</div>
+                    <div class="metric-label">Kontrol Oksigen &amp; Suhu Presisi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Profil Nakhera Farm (Tentang Kami) -->
+    <section class="section" id="profil">
+        <div class="container">
+            <div class="profile-grid">
+                <div class="profile-narrative">
+                    <div class="section-subtitle">Tentang Kami</div>
+                    <h2 class="section-title">Pelopor Budidaya Cerdas di Cirebon</h2>
+                    <p style="margin-top: 1.25rem;">
+                        <strong>Nakhera Farm</strong> merupakan pelopor budidaya lobster air tawar di Cirebon yang
+                        mengutamakan teknologi <em>vertical indoor farming</em> untuk efisiensi ruang maksimal dan
+                        kontrol kualitas air yang presisi tanpa ketergantungan cuaca ekstrem.
+                    </p>
+                    <p>
+                        Dengan pendekatan bio-engineering, setiap parameter kimia dan fisika air—mulai dari saturasi
+                        dissolved oxygen (DO), kestabilan pH, hingga siklus filtrasi biologis—diawasi secara konstan
+                        untuk menghasilkan lobster berdaya tahan tinggi, daging padat, serta bebas kontaminan.
+                    </p>
+                    <p>
+                        Komitmen kami adalah mendorong ekosistem akuakultur modern yang berkelanjutan, terukur, dan
+                        memberi dampak nyata bagi ketahanan pangan lokal maupun pasar konsumsi premium.
+                    </p>
+                    <div
+                        style="margin-top: 1.75rem; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle); position: relative; box-shadow: 0 10px 24px -10px rgba(0,0,0,0.05);">
+                        <img alt="Fasilitas Budidaya Nakhera Farm"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJKAzufeR7Z47bACAoCjBog2gAPiXAbNeD7Y5DwQ6USQ9PS1h0F_MhMoJTIYnvYzFj4b0Hsaq_tdxRdqgSnOekPCKZ1ES1GYVj2KWXXQeJ289o21V3tf-1Xd0VCueVrxTmPyvF5hNn19WAU4-ZI6XQ-xHCS90-GwcXoGZCwDo1ljwpJYtbRDgZcuPiA4aNnhOOLFHVU8b_So9B9GGD-p3LHz6I5b8-yJdV5T3B"
+                            style="width: 100%; height: 210px; object-fit: cover; display: block;" />
+                        <div
+                            style="padding: 0.75rem 1.25rem; background: #FFFFFF; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle);">
+                            <span style="font-size: 0.8rem; font-weight: 600; color: #111827;">Laboratorium &amp;
+                                Stasiun Rak Vertikal</span><span
+                                style="font-size: 0.75rem; color: #0EA5E9; font-weight: 600;">Standar Bio-Security
+                                Terkontrol</span></div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-header">
+                        <h4>Manajemen &amp; Tim Solid</h4>
+                        <span class="team-badge">Founders</span>
+                    </div>
+                    <div class="team-list">
+                        <div class="team-member">
+                            <div class="team-avatar-initials">R</div>
+                            <div class="team-info">
+                                <div class="name">Rafly</div>
+                                <div class="role">Operations &amp; Tech</div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-avatar-initials">K</div>
+                            <div class="team-info">
+                                <div class="name">Kevin</div>
+                                <div class="role">Aquaculture System</div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-avatar-initials">N</div>
+                            <div class="team-info">
+                                <div class="name">Nanda</div>
+                                <div class="role">Water Chemistry</div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-avatar-initials">H</div>
+                            <div class="team-info">
+                                <div class="name">Hasbi</div>
+                                <div class="role">Business &amp; Logistics</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Edukasi (Knowledge Hub) -->
+    <section class="section" id="edukasi" style="background-color: var(--bg-primary);">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Knowledge Hub</div>
+                <h2 class="section-title">Edukasi &amp; Metodologi</h2>
+                <p class="section-lead">Pondasi ilmiah di balik keunggulan kualitas lobster air tawar Nakhera Farm.</p>
+            </div>
+            <div class="edu-grid">
+                <!-- Kartu 1 -->
+                <article class="edu-card">
+                    <div class="edu-icon-wrap">
+                        <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+                            <rect height="14" rx="2" ry="2" width="20" x="2" y="3"></rect>
+                            <line x1="8" x2="16" y1="21" y2="21"></line>
+                            <line x1="12" x2="12" y1="17" y2="21"></line>
+                        </svg>
+                    </div>
+                    <div class="edu-tag">Modul 01</div>
+                    <h3 class="edu-title">Sistem Vertical Farming</h3>
+                    <p class="edu-text">
+                        Memaksimalkan efisiensi footprint lahan dengan instalasi rak vertikal terintegrasi. Memungkinkan
+                        densitas populasi optimal tanpa memicu kanibalisme antar lobster.
+                    </p>
+                </article>
+                <!-- Kartu 2 -->
+                <article class="edu-card">
+                    <div class="edu-icon-wrap">
+                        <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                        </svg>
+                    </div>
+                    <div class="edu-tag">Modul 02</div>
+                    <h3 class="edu-title">Kualitas Air &amp; Filtrasi</h3>
+                    <p class="edu-text">
+                        Filtrasi mekanis dan biologis bertahap untuk menjaga kejernihan, kestabilan temperatur air
+                        25–28°C, serta ketersediaan dissolved oxygen di atas level 5 ppm.
+                    </p>
+                </article>
+                <!-- Kartu 3 -->
+                <article class="edu-card">
+                    <div class="edu-icon-wrap">
+                        <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <div class="edu-tag">Modul 03</div>
+                    <h3 class="edu-title">Siklus Pakan</h3>
+                    <p class="edu-text">
+                        Standar nutrisi terformulasi tinggi protein dan kalsium alami guna mendukung fase molting yang
+                        aman dan pertumbuhan eksponensial <em>Cherax quadricarinatus</em>.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Katalog & Checkout -->
+    <section class="section shop-section" id="katalog">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Toko Digital</div>
+                <h2 class="section-title">Katalog Produk Pilihan</h2>
+                <p class="section-lead">Pilih bibit unggul, indukan produktif bergenetika kuat, atau lobster segar
+                    konsumsi.</p>
+            </div>
+            <!-- Daftar Produk -->
+            <div class="catalog-grid">
+                <!-- Produk 1 -->
+                <div class="product-card" data-id="bibit" data-name="Bibit Lobster (2-3 Inci)" data-price="3500">
+                    <div
+                        style="width: 100%; height: 180px; border-radius: var(--radius-sm); overflow: hidden; margin-bottom: 1.25rem; border: 1px solid var(--border-subtle); background: #F3F4F6;">
+                        <img alt="Bibit Lobster Air Tawar"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_yQQ1quO9QUVLjuCVZ9Ewisof3WyNBskMfd9EjtLzfD4xSXBeUcAe3Qfj4RRcj2b-oRi0h0nbts16rwwwSXxTiVUVuBOnfXqE4hAyqYWeWVC0eKeojMd4pRgQeSRvwykXfyGUrnTZv6IMayZFcmtN502cAmBz9hxa3o7-VKYeI1_L3WTku4gvTKYp9vMtsg9TR-UDCI8E4Gz2Qh1Q-DFPhM4Yktex_GWmicKP"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center bottom; transition: transform 0.3s ease;" />
+                    </div>
+                    <div class="product-top">
+                        <div class="product-category">Pembesaran</div>
+                        <h3 class="product-name">Bibit Lobster (2-3 Inci)</h3>
+                        <p class="product-desc">
+                            Benih Red Claw sehat, aktif, dan telah teradaptasi dengan sistem vertical closed-loop. Siap
+                            tebar di media pembesaran.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="product-price-row">
+                            <span class="product-price">Rp 3.500</span>
+                            <span class="product-unit">/ ekor</span>
+                        </div>
+                        <button class="btn-add-cart" onclick="addToCart('Bibit Lobster (2-3 Inci)')" type="button">
+                            Tambah ke Keranjang
+                        </button>
+                    </div>
+                </div>
+                <!-- Produk 2 -->
+                <div class="product-card" data-id="indukan" data-name="Indukan Produktif (1 Set)" data-price="250000">
+                    <div
+                        style="width: 100%; height: 180px; border-radius: var(--radius-sm); overflow: hidden; margin-bottom: 1.25rem; border: 1px solid var(--border-subtle); background: #F3F4F6;">
+                        <img alt="Indukan Produktif Cherax quadricarinatus"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_yQQ1quO9QUVLjuCVZ9Ewisof3WyNBskMfd9EjtLzfD4xSXBeUcAe3Qfj4RRcj2b-oRi0h0nbts16rwwwSXxTiVUVuBOnfXqE4hAyqYWeWVC0eKeojMd4pRgQeSRvwykXfyGUrnTZv6IMayZFcmtN502cAmBz9hxa3o7-VKYeI1_L3WTku4gvTKYp9vMtsg9TR-UDCI8E4Gz2Qh1Q-DFPhM4Yktex_GWmicKP"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform 0.3s ease;" />
+                    </div>
+                    <div class="product-top">
+                        <div class="product-category">Breeding Set</div>
+                        <h3 class="product-name">Indukan Produktif (1 Set)</h3>
+                        <p class="product-desc">
+                            Paket 3 jantan &amp; 5 betina siap kawin. Karakter capit merah tegas, bobot seimbang, dan
+                            fekunditas telur teruji.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="product-price-row">
+                            <span class="product-price">Rp 250.000</span>
+                            <span class="product-unit">/ paket (3J + 5B)</span>
+                        </div>
+                        <button class="btn-add-cart" onclick="addToCart('Indukan Produktif (1 Set)')" type="button">
+                            Tambah ke Keranjang
+                        </button>
+                    </div>
+                </div>
+                <!-- Produk 3 -->
+                <div class="product-card" data-id="konsumsi" data-name="Lobster Konsumsi (Grade A)" data-price="180000">
+                    <div
+                        style="width: 100%; height: 180px; border-radius: var(--radius-sm); overflow: hidden; margin-bottom: 1.25rem; border: 1px solid var(--border-subtle); background: #F3F4F6;">
+                        <img alt="Lobster Air Tawar Konsumsi Grade A"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_yQQ1quO9QUVLjuCVZ9Ewisof3WyNBskMfd9EjtLzfD4xSXBeUcAe3Qfj4RRcj2b-oRi0h0nbts16rwwwSXxTiVUVuBOnfXqE4hAyqYWeWVC0eKeojMd4pRgQeSRvwykXfyGUrnTZv6IMayZFcmtN502cAmBz9hxa3o7-VKYeI1_L3WTku4gvTKYp9vMtsg9TR-UDCI8E4Gz2Qh1Q-DFPhM4Yktex_GWmicKP"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: 70% 30%; transition: transform 0.3s ease;" />
+                    </div>
+                    <div class="product-top">
+                        <div class="product-category">Fresh Harvest</div>
+                        <h3 class="product-name">Lobster Konsumsi (Grade A)</h3>
+                        <p class="product-desc">
+                            Ukuran 80–120 gram per ekor. Daging tebal, manis, bersih tanpa bau lumpur berkat sistem
+                            purifikasi air farm.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="product-price-row">
+                            <span class="product-price">Rp 180.000</span>
+                            <span class="product-unit">/ kg (isi 8-12)</span>
+                        </div>
+                        <button class="btn-add-cart" onclick="addToCart('Lobster Konsumsi (Grade A)')" type="button">
+                            Tambah ke Keranjang
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Checkout Form Section -->
+            <div class="checkout-wrapper" id="checkout">
+                <h3 class="checkout-title">Formulir Checkout Cepat</h3>
+                <p class="checkout-subtitle">Lengkapi formulir di bawah ini untuk konfirmasi ketersediaan stok dan
+                    pengiriman dari farm Cirebon.</p>
+                <form id="checkoutForm" novalidate="">
+                    <div class="form-grid">
+                        <!-- Nama -->
+                        <div class="form-group">
+                            <label class="form-label" for="fullName">Nama Lengkap</label>
+                            <input autocomplete="name" class="input-underline" id="fullName"
+                                placeholder="cth. Budi Pratama" type="text" />
+                            <span class="form-feedback" id="nameError">Nama lengkap wajib diisi.</span>
+                        </div>
+                        <!-- Kontak / WhatsApp -->
+                        <div class="form-group">
+                            <label class="form-label" for="phoneNumber">Nomor WhatsApp / HP</label>
+                            <input autocomplete="tel" class="input-underline" id="phoneNumber"
+                                placeholder="cth. 081234567890" type="tel" />
+                            <span class="form-feedback" id="phoneError">Nomor telepon aktif diperlukan.</span>
+                        </div>
+                        <!-- Pilihan Produk -->
+                        <div class="form-group">
+                            <label class="form-label" for="productSelect">Pilihan Produk</label>
+                            <select class="input-underline" id="productSelect">
+                                <option value="">-- Pilih salah satu produk --</option>
+                                <option value="Bibit Lobster (2-3 Inci)">Bibit Lobster (2-3 Inci) — Rp 3.500/ekor
+                                </option>
+                                <option value="Indukan Produktif (1 Set)">Indukan Produktif (1 Set) — Rp 250.000/set
+                                </option>
+                                <option value="Lobster Konsumsi (Grade A)">Lobster Konsumsi (Grade A) — Rp 180.000/kg
+                                </option>
+                            </select>
+                            <span class="form-feedback" id="productError">Silakan pilih produk yang diinginkan.</span>
+                        </div>
+                        <!-- Jumlah -->
+                        <div class="form-group">
+                            <label class="form-label" for="quantity">Jumlah / Kuantitas</label>
+                            <input class="input-underline" id="quantity" min="1" placeholder="cth. 50" type="number"
+                                value="1" />
+                            <span class="form-feedback" id="quantityError">Jumlah minimal adalah 1.</span>
+                        </div>
+                        <!-- Alamat Pengiriman -->
+                        <div class="form-group full-width">
+                            <label class="form-label" for="shippingAddress">Alamat Pengiriman Lengkap</label>
+                            <input class="input-underline" id="shippingAddress"
+                                placeholder="Nama jalan, nomor rumah, RT/RW, kecamatan, kota/kabupaten" type="text" />
+                            <span class="form-feedback" id="addressError">Alamat pengiriman lengkap wajib diisi.</span>
+                        </div>
+                    </div>
+                    <div class="checkout-footer-row">
+                        <div class="order-summary-badge" id="orderNotice">
+                            Status Pesanan: <span id="cartSummaryText">Belum ada item dipilih</span>
+                        </div>
+                        <button class="btn btn-primary" style="min-width: 200px;" type="submit">
+                            Kirim Pesanan
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        NAKHERA FARM<span></span>
+                    </div>
+                    <p class="footer-desc">
+                        Pusat budidaya vertical indoor lobster air tawar (Cherax quadricarinatus) berstandar modern di
+                        Cirebon, Jawa Barat. Menghasilkan kualitas terjamin melalui rekayasa sirkulasi air presisi.
+                    </p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h5>Navigasi</h5>
+                        <ul class="footer-links">
+                            <li><a class="footer-link" href="#profil">Profil Farm</a></li>
+                            <li><a class="footer-link" href="#edukasi">Knowledge Hub</a></li>
+                            <li><a class="footer-link" href="#katalog">Katalog Produk</a></li>
+                            <li><a class="footer-link" href="#checkout">Checkout</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Hubungi Kami</h5>
+                        <ul class="footer-links">
+                            <li><a class="footer-link" href="https://wa.me/" rel="noopener" target="_blank">WhatsApp
+                                    Farm</a></li>
+                            <li><a class="footer-link" href="mailto:info@nakherafarm.com">info@nakherafarm.com</a></li>
+                            <li><span class="footer-link">Cirebon, Jawa Barat, Indonesia</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2025 Nakhera Farm. All Rights Reserved. Dibangun oleh Tim Rafly, Kevin, Nanda, &amp; Hasbi.</div>
+                <div>Minimalist Indoor Aquafarming Platform</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Notification Toast -->
+    <div class="toast" id="toast">
+        <span class="toast-dot"></span>
+        <span id="toastMessage">Produk ditambahkan ke keranjang</span>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Embedded inline execution to ensure immediate preview and full interactivity
+        (function () {
+            // Global cart state
+            let cartCount = 0;
+            const cartCountEl = document.getElementById('cartCount');
+            const productSelectEl = document.getElementById('productSelect');
+            const quantityEl = document.getElementById('quantity');
+            const toastEl = document.getElementById('toast');
+            const toastMessageEl = document.getElementById('toastMessage');
+            const cartSummaryTextEl = document.getElementById('cartSummaryText');
+
+            // Toast helper
+            window.showToast = function (msg) {
+                if (!toastEl) return;
+                toastMessageEl.textContent = msg;
+                toastEl.classList.add('show');
+                setTimeout(() => {
+                    toastEl.classList.remove('show');
+                }, 3200);
+            };
+
+            // Add to cart helper
+            window.addToCart = function (productName) {
+                cartCount++;
+                if (cartCountEl) cartCountEl.textContent = cartCount;
+
+                // Auto select in checkout form
+                if (productSelectEl) {
+                    productSelectEl.value = productName;
+                }
+                if (cartSummaryTextEl) {
+                    cartSummaryTextEl.textContent = `${cartCount} item dalam keranjang (${productName})`;
+                }
+
+                showToast(`"${productName}" berhasil ditambahkan!`);
+            };
+
+            // Mobile Menu Toggle
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const mobileLinks = document.querySelectorAll('.mobile-link');
+
+            if (hamburgerBtn && mobileMenu) {
+                hamburgerBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('open');
+                });
+
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.remove('open');
+                    });
+                });
+            }
+
+            // Smooth Active Nav Link on Scroll
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(sec => {
+                    const sectionTop = sec.offsetTop - 120;
+                    if (window.pageYOffset >= sectionTop) {
+                        current = sec.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            // Checkout Form Validation
+            const form = document.getElementById('checkoutForm');
+            if (form) {
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    const name = document.getElementById('fullName');
+                    const phone = document.getElementById('phoneNumber');
+                    const product = document.getElementById('productSelect');
+                    const quantity = document.getElementById('quantity');
+                    const address = document.getElementById('shippingAddress');
+
+                    let isValid = true;
+
+                    // Helper validation
+                    function validateField(inputEl, errorId, condition) {
+                        const errEl = document.getElementById(errorId);
+                        if (condition) {
+                            errEl.classList.add('show');
+                            inputEl.style.borderBottomColor = '#DC2626';
+                            return false;
+                        } else {
+                            errEl.classList.remove('show');
+                            inputEl.style.borderBottomColor = '';
+                            return true;
+                        }
+                    }
+
+                    if (!validateField(name, 'nameError', !name.value.trim())) isValid = false;
+                    if (!validateField(phone, 'phoneError', !phone.value.trim() || phone.value.trim().length < 8)) isValid = false;
+                    if (!validateField(product, 'productError', !product.value)) isValid = false;
+                    if (!validateField(quantity, 'quantityError', !quantity.value || parseInt(quantity.value) < 1)) isValid = false;
+                    if (!validateField(address, 'addressError', !address.value.trim())) isValid = false;
+
+                    if (isValid) {
+                        showToast('Pesanan berhasil dikirim! Tim Nakhera Farm akan segera menghubungi Anda.');
+                        form.reset();
+                        if (cartSummaryTextEl) cartSummaryTextEl.textContent = 'Pesanan terkirim via sistem';
+                        cartCount = 0;
+                        if (cartCountEl) cartCountEl.textContent = 0;
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>
